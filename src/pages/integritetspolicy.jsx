@@ -3,18 +3,18 @@ import Image from 'next/image';
 
 import { Seo } from '../components/seo/Seo';
 
-export default function Home() {
+export default function integritetspolicy() {
   return (
     <>
       <Seo
-        title="Mattis portfolio"
-        description="Mattis portfolio"
-        pageUrl="/"
+        title="Integritetspolicy"
+        description="Integritetspolicy"
+        pageUrl="/integritetspolicy"
         image="/mattis-logo.svg"
       />
 
       <main>
-        <h1 className="text-4xl">Mattis portfolio</h1>
+        <h1 className="text-4xl">Integritetspolicy</h1>
       </main>
     </>
   );
