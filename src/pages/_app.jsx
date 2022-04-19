@@ -29,7 +29,7 @@ function MyApp({ Component, pageProps }) {
         expires={150}
         // debug={true}
       >
-        Denna webbplats använder sig av cookies.Genom att du använder denna
+        Denna webbplats använder sig av cookies. Genom att du använder denna
         webbplats accepterar du vårt användade av cookies. Läs mer om vår{' '}
         <Link href={RoutingPath.integritetspolicy}>
           <a style={{ textDecoration: 'underline' }}>integritetspolicy</a>
